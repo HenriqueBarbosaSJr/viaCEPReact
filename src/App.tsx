@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <p>Consulta ViaCEP</p>
+      <p>Consulta ViaCEP - Aula React</p>
       <input type="text" onChange={e => setSearchCep(e.target.value)} /><br/><br/>
       <button onClick={search}>Consultar CEP</button>
       <p>CEP: {cep}</p>
