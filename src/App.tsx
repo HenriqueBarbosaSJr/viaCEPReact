@@ -25,7 +25,7 @@ function App() {
     <>
       <p>Consulta ViaCEP - Aula React</p>
       <input type="text" onChange={e => setSearchCep(e.target.value)} /><br/><br/>
-      <button onClick={search}>Consultar CEP</button>
+      <button onClick={search}>Consultar CEP do Brasil</button>
       <p>CEP: {cep}</p>
       <p>UF: {uf}</p>
       <p>Logradouro: {log}</p>
